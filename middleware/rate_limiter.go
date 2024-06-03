@@ -9,8 +9,8 @@ import (
 
 func RateLimiter() fiber.Handler {
 	return limiter.New(limiter.Config{
-		Max:        100,              // Maximum number of requests
-		Expiration: 60 * time.Second, // Time period for the rate limit
+		Max:        5,                // Maximum number of requests
+		Expiration: 10 * time.Second, // Time period for the rate limit
 		KeyGenerator: func(c *fiber.Ctx) string {
 			return c.IP() // Use IP address as the key for rate limiting
 		},

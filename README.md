@@ -15,3 +15,16 @@ Rate-Limiting-API/
 │ └── config.go
 ├── go.mod
 └── go.sum
+
+## Getting Started
+
+### Prerequisites
+
+- Go 1.16+ installed on your machine
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aselasperera/Rate-Limiting-API
+   cd Rate-Limiting-API

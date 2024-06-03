@@ -32,3 +32,10 @@ Rate-Limiting-API/
     ```bash
     go mod tidy
 
+### API Endpoints
+### Home Endpoint
+URL: /
+Method: GET
+Response:
+    ```bash
+    "Welcome to the API!"

@@ -28,3 +28,7 @@ Rate-Limiting-API/
    ```bash
    git clone https://github.com/aselasperera/Rate-Limiting-API
    cd Rate-Limiting-API
+2. Install the dependencies:
+    ```bash
+    go mod tidy
+

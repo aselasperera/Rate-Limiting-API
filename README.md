@@ -38,4 +38,4 @@ URL: /
 Method: GET
 Response:
     ```bash
-    "Welcome to the API!"
+    Welcome to the API!

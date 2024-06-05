@@ -3,7 +3,7 @@
 This project is a simple API built with Go Fiber that demonstrates how to implement rate limiting on API endpoints to prevent abuse and ensure smooth performance.
 
 ## Project Structure
-
+```
 Rate-Limiting-API/
 ├── main.go
 ├── handlers/
@@ -15,7 +15,7 @@ Rate-Limiting-API/
 │ └── config.go
 ├── go.mod
 └── go.sum
-
+```
 ## Getting Started
 
 ### Prerequisites
